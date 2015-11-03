@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+struct seq{
+    int array[100];
+    int index=0;
+};
+
+int main()
+{
+    
+}
+
+void addTail()
+{
+        
+}
+
+int addHead()
+{
+    
+}
