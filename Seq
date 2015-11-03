@@ -1,21 +1,39 @@
 #include <stdio.h>
 #include <stdlib.h>
+
+#define MAX_DIM 100
 struct seq{
-    int array[100];
+    int array[MAX_DIM];
     int index=0;
 };
 
 int main()
 {
-    
+    seq a;
+    int b=6;
+    addTail(a,b);
 }
 
-void addTail()
+void addTail(seq s,int a)
 {
-        
+    if(s.index==MAX_DIM)
+        printf("overflow");
+    else
+    {
+
+    }
 }
 
-int addHead()
+void addHead(seq s,int a)
 {
-    
+    if(s.index==MAX_DIM)
+        printf("overflow");
+    else
+    {
+        for(int i=0;i<MAX_DIM;i++)
+        {
+
+        }
+        s.array[0]=a;
+    }
 }
